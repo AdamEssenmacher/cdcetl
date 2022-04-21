@@ -47,6 +47,102 @@
 									"name": "id",
 									"type": "String"
 								}
+							},
+							{
+								"source": {
+									"path": "$['[8]']"
+								},
+								"sink": {
+									"name": "geography_type"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[9]']"
+								},
+								"sink": {
+									"name": "geography"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[10]']"
+								},
+								"sink": {
+									"name": "group_name"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[11]']"
+								},
+								"sink": {
+									"name": "group_category"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[12]']"
+								},
+								"sink": {
+									"name": "indicator_name"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[13]']"
+								},
+								"sink": {
+									"name": "indicator_category"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[14]']"
+								},
+								"sink": {
+									"name": "time_period"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[15]']"
+								},
+								"sink": {
+									"name": "time_type"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[16]']"
+								},
+								"sink": {
+									"name": "estimate"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[17]']"
+								},
+								"sink": {
+									"name": "coninf_95"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[18]']"
+								},
+								"sink": {
+									"name": "sample_size"
+								}
+							},
+							{
+								"source": {
+									"path": "$['[19]']"
+								},
+								"sink": {
+									"name": "suppression_flag"
+								}
 							}
 						],
 						"collectionReference": "$['data']"
