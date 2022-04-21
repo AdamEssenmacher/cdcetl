@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "EscrowTabCDC"
+		},
+		"CdcEtlSearch_key": {
+			"value": ""
+		},
+		"CDC Source_properties_typeProperties_url": {
+			"value": "https://data.cdc.gov/api/views/qz99-wyhv/rows.json?accessType=DOWNLOAD"
+		},
+		"CdcEtlSearch_properties_typeProperties_url": {
+			"value": "https://cdcetl.search.windows.net"
+		}
+	}
+}
